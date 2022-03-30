@@ -1,0 +1,9 @@
+.ContainerCol303040 {
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+  }
+  @media(max-width: 920px) {
+    .ContainerCol303040 {
+      grid-template-columns: 100%;
+    }
+  }

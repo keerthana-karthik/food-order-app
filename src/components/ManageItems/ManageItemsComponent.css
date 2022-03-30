@@ -1,0 +1,222 @@
+.PageContainer {
+  margin: 1rem;
+}
+
+.ManageItemWrapper {
+  /* height: 80vh;
+    width: 80vw; */
+  margin: 1rem;
+}
+
+.ReviewOrderSection {
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  box-shadow: 3px 5px #ddd;
+}
+
+.ReviewOrderTitle {
+  font-size: 22px;
+  padding: 10px;
+}
+
+.FormWrapper {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+  margin: auto;
+  /* border: 1px solid #ddd;
+    box-shadow: 3px 5px #ddd; */
+}
+
+.FormSection {
+  padding: 1%;
+  margin: 1%;
+  display: inline-block;
+  width: 95%;
+  /* height: 40vh; */
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  box-shadow: 3px 5px #ddd;
+}
+
+.FormContent {
+  margin: 2rem;
+}
+
+.FormImgSection {
+  padding: 1%;
+  margin: 1%;
+  display: inline-block;
+  width: 100%;
+  /* border: 1px solid blueviolet; */
+  /* height: 70vh; */
+}
+
+.FormImg {
+  /* width: 100%; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.FormElement {
+  width: 90%;
+  margin: 5%;
+  font-size: 16px;
+}
+
+input.FormElement {
+  border: 1px solid #80808000;
+  border-bottom: 1px solid gray;
+  height: 1%;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .FormWrapper {
+    display: block;
+  }
+
+  .FormImgSection {
+    padding: 0%;
+    height: 50vh;
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .FormWrapper {
+    display: flex;
+  }
+
+  .FormImgSection {
+    padding: 1%;
+    height: 70vh;
+  }
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .FormWrapper {
+    display: block;
+  }
+
+  .FormImgSection {
+    padding: 0%;
+    height: 50vh;
+  }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .FormWrapper {
+    display: block;
+  }
+
+  .FormImgSection {
+    padding: 0%;
+    height: 50vh;
+  }
+}
+
+.ItemOuterWrapper {
+  box-sizing: border-box;
+  padding: 0.5em;
+}
+
+.ItemWrapper {
+  box-shadow: 0 0 0.5em #508216 !important;
+  display: flex;
+  padding: 0.5rem 1rem;
+  align-items: center;
+}
+
+.ItemDetail {
+  margin-top: 2rem;
+}
+
+.ItemDetailBrand {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.ItemButtonWrapper {
+  padding-left: 2rem;
+}
+
+.ItemInfoStart {
+  width: 90%;
+  align-items: center;
+}
+
+.ItemInfoEnd {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ItemTitle {
+  line-height: 2rem;
+  color: #000;
+  font-size: 1.1rem;
+}
+
+.ItemDesc {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  color: #999;
+  min-width: 200px;
+}
+
+@media (max-width: 480px) {
+  .ItemDesc {
+    max-width: 200px;
+  }
+}
+
+.ItemDetailPrice {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.ItemDetailDesc {
+  font-size: 1.3rem;
+  font-weight: 300;
+}

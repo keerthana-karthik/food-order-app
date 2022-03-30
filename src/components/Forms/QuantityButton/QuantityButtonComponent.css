@@ -1,0 +1,38 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 1;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.quantityPicker {
+    display: flex;
+    margin: 10px -2px;
+}
+
+.quantityDisplay {
+    padding: 2px 5px;
+    width: 10px;
+    /* box-shadow: 0 8px 6px -6px black; */
+    /* box-shadow: 0 0 1em rgba(0, 0, 0, .7); */
+}
+
+.decrementBtn {
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, .5);
+    padding: 3px;
+}
+
+.incrementBtn {
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, .5);
+    padding: 2px;
+}
+
+.decrementBtn:focus,
+.incrementBtn:focus {
+    outline: none;
+}
