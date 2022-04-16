@@ -71,8 +71,8 @@ class ListItems extends Component {
         >
           <div id="pageTitle" className={[indexClasses.marginAuto].join(' ')}>
             {categoryDisplayName}
-            {' - '}
-            {new Date(this.state.dateForDayOfWeek).toLocaleDateString()}
+            {/* {' - '}
+            {new Date(this.state.dateForDayOfWeek).toLocaleDateString()} */}
           </div>
         </header>
         <div className={indexClasses.responsiveRow}>

@@ -42,7 +42,7 @@ const CheckoutFormState = {
         name: 'question1'
       },
       value: '',
-      valid: false,
+      valid: true,
       touched: false
     },
     question2: {
@@ -53,7 +53,7 @@ const CheckoutFormState = {
         name: 'question2'
       },
       value: '',
-      valid: false,
+      valid: true,
       touched: false
     }
   },
